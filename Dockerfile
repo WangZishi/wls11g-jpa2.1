@@ -9,4 +9,4 @@ RUN rm startWebLogic.sh
 COPY startWebLogic.sh ./
 
 EXPOSE 7001
-CMD ["/bin/bash ./startWebLogic.sh"]
+CMD ["sh", "./startWebLogic.sh"]
