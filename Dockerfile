@@ -1,4 +1,4 @@
-FROM riddick/weblogic11g_asms:last
+FROM riddick/weblogic11g_asms:latest
 MAINTAINER Wang Zishi "ynh.2@outlook.com"
 
 WORKDIR /opt/bea/wls1036
