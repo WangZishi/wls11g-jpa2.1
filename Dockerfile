@@ -5,8 +5,8 @@ WORKDIR /opt/bea/wls1036
 COPY jar/hibernate-jpa-2.1-api-1.0.0.Final.jar ./modules
 
 WORKDIR /opt/bea/wls1036/user_projects/domains/asms_domain
-RUN rm startWeblogic.sh
-COPY startWeblogic.sh ./
+RUN rm startWebLogic.sh
+COPY startWebLogic.sh ./
 
 EXPOSE 7001
-CMD ["/bin/bash ./startWeblogic.sh"]
+CMD ["/bin/bash ./startWebLogic.sh"]
