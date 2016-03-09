@@ -9,7 +9,7 @@ echo Hack JPA begin
 WLS_MODULES="/opt/bea/wls1036/modules"
 export WLS_MODULES
 
-PRE_CLASSPATH="${WLS_MODULES}\hibernate-jpa-2.1-api-1.0.0.Final.jar"
+PRE_CLASSPATH="${WLS_MODULES}/hibernate-jpa-2.1-api-1.0.0.Final.jar"
 export PRE_CLASSPATH
 
 echo PRE_CLASSPATH=${PRE_CLASSPATH}
